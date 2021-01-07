@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To DO List</title>  
+  <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main>
+      <div class="header">
+          <h3>Список заданий на сегодня</h3>
+          <div class="addCase"> 
+            <p>Добавить задание:</p> 
+            <input id="item" name="item" type="text" placeholder="Название задания">
+          </div>
+          <p>Всего заданий на сегодня: <span id="counter"></span></p>
+      </div>
+      <div class="row noneDisplay">
+          <div class="check"></div>
+          <div class="text"><span></span></div>
+          <div class="dlt"></div>
+          <div class="clear"></div>
+      </div>
+  </main>
+
+  <div class="footer"><button id="clear">Удалить все</button> </div> 
+
+  <script src="js/script.js" type="text/javascript"></script>    
+
+</body>
+</html>

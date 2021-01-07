@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+h3,p{
+	margin: 2% 0;
+	text-align: center;
+}
+main {
+    background: #fff;
+    width: 90vw;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border-radius: 10px; 
+}
+.header {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    background: #499bea; 
+    text-shadow: -1px -1px 1px #666;
+}
+.addCase{
+    width: 100%;
+    text-align: center;	
+}
+.add{
+	background: url('../image/icon_1.png') no-repeat;
+	background-position: 100% 0;
+	background-size: 400%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	display: inline-block;
+}
+.addCase>input{
+    border: none;
+    padding-left: 5px;
+    width: 252px;
+    font-size: 1em;
+    height: 30px;
+    color:#333;
+    outline: none;
+}
+.row{
+    background: #ecedee;
+    height: 40px;
+}
+.check {
+	background: url('../image/icon_1.png') no-repeat;
+	background-position: 0 0;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 1px;
+	border-right: 1px solid #499bea;
+	border-top: 1px solid #d9d9d9;
+}
+.check:hover {
+    cursor: pointer;
+}
+.check.doneIcon{
+	background-position: -40px 0px ;
+}
+.text {
+    height: 40px;
+    float: left;
+    padding: 10px;
+    border-top: 1px solid #d9d9d9;
+    width: 80%;
+}
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dlt {
+	background: url('../image/icon_1.png') no-repeat;
+	background-position: -80px 0;
+	width: 40px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+}
+#clear {
+    display:inline-block!important;
+    padding: 2px 10px;
+}
+.done {
+    font-style: italic;
+    text-decoration: line-through;
+    color: #d3d3d3 !important;
+}
+.noneDisplay{
+	display: none;
+}
+.footer{  
+    height: 45px;
+    width: 90vw;
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 10px;
+    text-align:center;
+    font-size: 1em;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-radius: 0 0 10px 10px;
+    background: #499bea; 
+    text-shadow: -1px -1px 1px #666;
+}
